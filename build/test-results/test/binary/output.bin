@@ -1,5 +1,6 @@
+ {"firstName":"Mohammad","lastName":"Karim","password":"123456","userStatus":1,"phone":"256686456","id":1000,"email":"karim@gmail.com","username":"test_karim"}
 HTTP/1.1 200 OK
-%Date: Fri, 03 Mar 2023 16:08:49 GMT
+%Date: Fri, 03 Mar 2023 16:16:44 GMT
  Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -11,5 +12,108 @@
 {
     "code": 200,
     "type": "unknown",
-    "message": "test_karim"
+    "message": "1000"
 }
+HTTP/1.1 200 OK
+%Date: Fri, 03 Mar 2023 16:16:46 GMT
+ Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+ Access-Control-Allow-Origin: *
+6Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
+ Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 1000,
+    "username": "test_karim",
+    "firstName": "Mohammad",
+    "lastName": "Karim",
+     "email": "karim@gmail.com",
+    "password": "123456",
+    "phone": "256686456",
+    "userStatus": 1
+}
+œ{"firstName":"Fazle","lastName":"Karim","password":"123@#","userStatus":0,"phone":"256686456","id":1000,"email":"karim@gmail.com","username":"test_karim"}
+HTTP/1.1 200 OK
+%Date: Fri, 03 Mar 2023 16:16:47 GMT
+ Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+ Access-Control-Allow-Origin: *
+6Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
+ Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1000"
+}
+HTTP/1.1 200 OK
+%Date: Fri, 03 Mar 2023 16:16:49 GMT
+ Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+ Access-Control-Allow-Origin: *
+6Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
+ Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 1000,
+    "username": "test_karim",
+    "firstName": "Fazle",
+    "lastName": "Karim",
+     "email": "karim@gmail.com",
+    "password": "123@#",
+    "phone": "256686456",
+    "userStatus": 0
+}
+HTTP/1.1 200 OK
+%Date: Fri, 03 Mar 2023 16:16:50 GMT
+ Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+ Access-Control-Allow-Origin: *
+6Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
+ Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "test_karim"
+}
+»[{"firstName":"Mohammad","lastName":"Karim","password":"123456","userStatus":1,"phone":"256686456","id":1001,"email":"karim@gmail.com","username":"test001"},{"firstName":"Mohammad","lastName":"Rahim","password":"123456","userStatus":1,"phone":"256686457","id":1002,"email":"rahim@gmail.com","username":"test002"}]
+HTTP/1.1 200 OK
+%Date: Fri, 03 Mar 2023 16:16:52 GMT
+ Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+ Access-Control-Allow-Origin: *
+6Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
+ Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "ok"
+}
+½[{"firstName":"Mohammad","lastName":"Reyad","password":"123456","userStatus":1,"phone":"256686451","id":1003,"email":"reyad@gmail.com","username":"test003"},{"firstName":"Mohammad","lastName":"Mahmud","password":"123456","userStatus":1,"phone":"256686452","id":1004,"email":"mahmud@gmail.com","username":"test004"}]
+HTTP/1.1 200 OK
+%Date: Fri, 03 Mar 2023 16:16:53 GMT
+ Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+ Access-Control-Allow-Origin: *
+6Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
+ Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "ok"
+}
