@@ -22,8 +22,9 @@ public class OperationsAboutUser {
     static String valueOfPassword = "123456";
     static String valueOfPhone = "256686456";
     static int valueOfUserStatus = 1;
+    static int expectedStatusCode = 200;
 
-    @Test
+    @Test (priority = 1)
     public void creteUser () {
         Map<String, Object> userCreateRequestPayload = new HashMap<String, Object>();
         userCreateRequestPayload.put("id", valueOfId);
@@ -54,6 +55,23 @@ public class OperationsAboutUser {
 
 
 
+    }
+
+    @Test (priority = 2)
+    public void deleteUser() {
+
+        Response response = given().
+                pathParam("username", valueOfUsername).
+                when().
+                delete(BASE_URL + "/user/{username}").
+                then().
+                assertThat().statusCode(expectedStatusCode).
+                log().all().
+                extract().response();
+
+        JsonPath jsonPath = response.jsonPath();
+        String actualValueOfMessage = jsonPath.get("message");
+        assertEquals(actualValueOfMessage, valueOfUsername);
     }
 
 }
